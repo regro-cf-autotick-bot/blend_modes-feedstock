@@ -1,5 +1,5 @@
 {% set name = "blend_modes" %}
-{% set version = "2.1.0" %}
+{% set version = "2.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0a3145e4792e005764b9663f5ce899d30f7c24f4bcff00428907d03dbe068f37
+  sha256: 54e0703be83097a94af792e52a21fbbd3af20a690b21c9175283e216762c123a
 
 build:
   number: 0
@@ -43,4 +43,4 @@ about:
 
 extra:
   recipe-maintainers:
-  - flrs
+    - flrs
